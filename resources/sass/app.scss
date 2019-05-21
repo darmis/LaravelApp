@@ -1,0 +1,162 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Font Awesome 
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.hidden {
+  display:none;
+}
+
+table {
+	font-size: 11px;
+}
+
+.hr {
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-sm {
+    padding: 0.2rem 0.2rem;
+    font-size: 0.75rem;
+    line-height: 1.1;
+    border-radius: 0.2rem;
+    margin: 0.1rem;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 4em;
+  text-align: center;
+}
+
+.left-nav {
+  background-color: $left-nav-bg;
+  padding-top: 1em;
+  min-height: 91vh;
+}
+
+.left-menu-item {
+  padding: .5em .5em;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.left-menu-item-inner {
+  padding: .2em 1.5em;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+.left-menu-item a,
+.left-menu-item-inner a {
+  color: $left-menu-item-color;
+  font-weight: 700;
+}
+
+.left-menu-item a:hover,
+.left-menu-item a:active,
+.left-menu-item-inner a:hover,
+.left-menu-item-inner a:active {
+  text-decoration: none;
+  color: $left-menu-item-hover;
+  font-weight: 700;
+}
+
+.left-menu-item i,
+.left-menu-item-inner i {
+  margin-right: .5em;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.red {
+  color:red;
+}
+
+.top-controllers i:hover {
+  cursor: pointer;
+}
+
+.role-text {
+  text-align: center;
+  color: grey;
+}
+
+.role-text:first-letter {
+  text-transform: uppercase;
+}
+
+.now-on {
+  color: $left-menu-item-hover !important;
+}
+
+.new-tasks,
+.not-finished-tasks,
+.month-repairs,
+.month-services {
+  height: 10em;
+  margin: 1em;
+  background-color: $dashboard-items;
+}
+
+.widget-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.widget-text {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0.8em;
+  text-align: right;
+}
+
+.widget-text i {
+  font-size: 5em;
+  float: left;
+  opacity: .3;
+}
+
+.panel {
+  min-height: 25em;
+  margin: .2em;
+}
+
+.panel-header {
+  padding: .5em;
+  background-color: #F3F2A3;
+  font-weight: bold;
+}
+
+.dashboard-note {
+  background-color: #FFFD83;
+  width: 100%;
+  padding: .5em;
+  min-height: 25em;
+  border: 0px solid #FFFFFF;
+}
+
+.search-form {
+  margin: 4em auto;
+}
